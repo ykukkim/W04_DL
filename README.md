@@ -40,9 +40,11 @@ This git repository consists python codes for training the network. MATLAB was u
    ```sh
    git clone https://github.com/ykukkim/W04_DL.git
    ```
+2. Trainin_LSTM -> consists python scripts from training to validating the performance of models.
 
 
 ### Requirement
 
 Python version: 3.9
-PyTorch Library
+# CUDA 10.2
+conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 cudatoolkit=10.2 -c pytorch
